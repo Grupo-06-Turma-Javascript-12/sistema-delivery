@@ -30,6 +30,15 @@ export class Produto {
   @Column({ length: 1000, nullable: false })
   tipo: string;
 
+  aplicarDesconto(percentual: number): void {
+    if (percentual <= 0 || percentual >= 100) {
+      throw new Error('Percentual de desconto inválido');
+    }
+
+    const desconto = Number(this.preco) * (percentual / 100);
+    this.preco = Number((Number(this.preco) - desconto).toFixed(2));
+  }
+
   @ApiProperty({ type: () => Categoria })
   @ManyToOne(() => Categoria, (categoria) => categoria.produto, {
     onDelete: 'CASCADE',

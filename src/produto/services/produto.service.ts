@@ -49,6 +49,14 @@ export class ProdutoService {
     });
   }
 
+  async aplicarDesconto(id: number, percentual: number): Promise<Produto> {
+    const produto = await this.findById(id);
+
+    produto.aplicarDesconto(percentual);
+
+    return await this.produtoRepository.save(produto);
+  }
+
   async create(produto: Produto): Promise<Produto> {
     await this.categoriaService.findById(produto.categoria.id);
     return await this.produtoRepository.save(produto);

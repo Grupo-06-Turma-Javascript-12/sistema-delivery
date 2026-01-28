@@ -7,6 +7,7 @@ import {
   HttpStatus,
   Param,
   ParseIntPipe,
+  Patch,
   Post,
   Put,
   UseGuards,
@@ -52,6 +53,14 @@ export class ProdutoController {
   @HttpCode(HttpStatus.OK)
   update(@Body() produto: Produto): Promise<Produto> {
     return this.produtoService.update(produto);
+  }
+
+  @Patch(':id/desconto/:percentual')
+  async aplicarDesconto(
+    @Param('id') id: number,
+    @Param('percentual') percentual: number,
+  ): Promise<Produto> {
+    return this.produtoService.aplicarDesconto(id, percentual);
   }
 
   @Delete('/:id')

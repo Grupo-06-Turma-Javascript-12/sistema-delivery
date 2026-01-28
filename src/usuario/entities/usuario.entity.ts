@@ -30,7 +30,7 @@ export class Usuario {
   @ApiProperty()
   foto: string;
 
-  @OneToMany(() => Produto, (produto) => produto.usuario)
   @ApiProperty()
+  @OneToMany(() => Produto, (produto) => produto.usuario)
   produto: Produto[];
 }
