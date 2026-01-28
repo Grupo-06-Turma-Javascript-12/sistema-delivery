@@ -9,7 +9,7 @@ import { Produto } from '../entities/produto.entity';
 export class ProdutoService {
   constructor(
     @InjectRepository(Produto)
-    private ProdutoRepository: Repository<Produto>,
+    private produtoRepository: Repository<Produto>,
     private categoriaService: CategoriaService,
   ) {}
 
@@ -32,12 +32,12 @@ export class ProdutoService {
         usuario: true,
       },
     });
-     if (!produto)
+    if (!produto)
       throw new HttpException('Postagem não encontrada!', HttpStatus.NOT_FOUND);
 
     return produto;
   }
-   async findByTitulo(nome: string): Promise<Produto[]> {
+  async findByTitulo(nome: string): Promise<Produto[]> {
     return await this.produtoRepository.find({
       where: {
         nome: ILike(`%${nome}%`),
@@ -48,9 +48,9 @@ export class ProdutoService {
       },
     });
   }
-    
+
   async create(produto: Produto): Promise<Produto> {
-    await this.temaService.findById(produto.categoria.id);
+    await this.categoriaService.findById(produto.categoria.id);
     return await this.produtoRepository.save(produto);
   }
   async update(produto: Produto): Promise<Produto> {
