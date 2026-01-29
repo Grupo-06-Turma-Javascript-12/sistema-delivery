@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="logo original" src="https://github.com/user-attachments/assets/b49a63e4-d4be-4588-b7c1-4f6aa1724b58" alt="Mastiga Delivery Logo" width="300" />
+  <img alt="logo original" src="https://github.com/user-attachments/assets/663a7411-6e56-457e-b524-f21cdf51604c" alt="Mastiga Delivery Logo" width="300" />
 </p>
 
 <h1 align="center"> Mastiga - Delivery Saudável 🥗 </h1>
