@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow" alt="Status">
-  <img src="https://img.shields.io/badge/Language-JavaScript-yellow" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
 </p>
 
 ## 📋 Sobre o Projeto
@@ -15,13 +15,22 @@ O **Mastiga** é um sistema de delivery focado em alimentação saudável, desen
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
 
-O projeto utiliza as seguintes tecnologias:
+O projeto foi construído utilizando as tecnologias mais modernas para garantir escalabilidade e robustez:
 
-* **HTML5 / CSS3** - Estruturação e estilização da interface.
-* **JavaScript** - Lógica do sistema e manipulação do DOM.
-* **Git / GitHub** - Controle de versão e colaboração.
+<p align="left">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+</p>
+
+* **[Node.js](https://nodejs.org/) & [NestJS](https://nestjs.com/)**: Framework progressivo para a construção de aplicações *server-side* eficientes, confiáveis e escaláveis.
+* **[TypeScript](https://www.typescriptlang.org/)**: Superset do JavaScript que adiciona tipagem estática e recursos avançados, garantindo maior segurança e manutenibilidade ao código.
+* **[MySQL](https://www.mysql.com/)**: Sistema de gerenciamento de banco de dados relacional (RDBMS) utilizado para garantir a integridade e persistência dos dados.
+* **[TypeORM](https://typeorm.io/)**: Ferramenta de mapeamento objeto-relacional (ORM) que facilita a integração entre o código TypeScript e o banco de dados.
+* **[Class Validator](https://github.com/typestack/class-validator)**: Biblioteca essencial para a validação rigorosa de dados de entrada via DTOs, prevenindo erros e inconsistências no sistema.
 
 ---
 
