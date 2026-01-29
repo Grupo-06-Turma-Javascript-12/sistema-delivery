@@ -38,19 +38,35 @@ O projeto foi construído utilizando as tecnologias mais modernas para garantir 
 
 ## ✨ Funcionalidades
 
-- [x] **Cadastro de Usuários**: Clientes e Administradores.
-- [x] **Gestão de Cardápio**: Adição, edição e remoção de pratos saudáveis.
-- [x] **Carrinho de Compras**: Adição de itens e cálculo de desconto em refeições.
-- [x] **Persistência de Dados**: Integração total com MySQL via TypeORM.
+* 👤 **Cadastro de Usuários**: Sistema completo para Clientes e Administradores.
+* 🥗 **Gestão de Cardápio**: Adição, edição e remoção de pratos de forma dinâmica.
+* 🛒 **Carrinho de Compras**: Adição de itens com cálculo de desconnto em refeições.
+* 💾 **Persistência de Dados**: Integração robusta com MySQL através do TypeORM para total segurança das informações.
+* 🛡️ **Validação de Dados**: Uso de Class Validator para garantir que as entradas estejam sempre corretas.
 
 ---
 
-## 🛠️ Como executar o projeto
+## 🚀 Como executar o projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/Grupo-06-Turma-Javascript-12/sistema-delivery.git](https://github.com/Grupo-06-Turma-Javascript-12/sistema-delivery.git)
+Siga os passos abaixo para configurar o ambiente e rodar o projeto localmente:
 
+### 1. Pré-requisitos
+Certifique-se de ter instalado em sua máquina:
+* [Node.js](https://nodejs.org/) (versão 18 ou superior)
+* [MySQL](https://www.mysql.com/)
+* Gerenciador de pacotes (NPM ou Yarn)
+
+### 2. Clonagem e Instalação
+```bash
+# Clone o repositório
+git clone [https://github.com/Grupo-06-Turma-Javascript-12/sistema-delivery.git](https://github.com/Grupo-06-Turma-Javascript-12/sistema-delivery.git)
+
+# Acesse a pasta do projeto
+cd sistema-delivery
+
+# Instale as dependências
+npm install
+````
 ---
 
    ## 👥 Equipe de Desenvolvimento - Grupo 06 Generation Brasil
