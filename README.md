@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Grupo-06-Turma-Javascript-12/sistema-delivery/main/logo%20original.jpg" alt="Mastiga Delivery Logo" width="300">
+  <img alt="logo original" src="https://github.com/user-attachments/assets/b49a63e4-d4be-4588-b7c1-4f6aa1724b58" alt="Mastiga Delivery Logo" width="300" />
 </p>
 
 <h1 align="center"> Mastiga - Delivery Saudável 🥗 </h1>
