@@ -17,7 +17,7 @@ O **Mastiga** é um sistema de delivery focado em alimentação saudável, desen
 
 ---
 
-### 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 O projeto foi construído utilizando as tecnologias mais modernas para garantir escalabilidade e robustez:
 
