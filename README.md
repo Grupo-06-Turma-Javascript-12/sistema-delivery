@@ -67,6 +67,11 @@ cd sistema-delivery
 # Instale as dependências
 npm install
 ````
+
+### 3. Inicialização
+```bash
+npm run start:dev
+````
 ---
 
    ## 👥 Equipe de Desenvolvimento - Grupo 06 Generation Brasil
