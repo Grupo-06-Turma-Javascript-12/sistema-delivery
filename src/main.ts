@@ -7,7 +7,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-    .setTitle('Mastiga - Delivery Saúdavel API')
+    .setTitle('Mastiga - Delivery Saudável API')
     .setDescription(
       'Mastiga - Delivery Saúdavel API - Projeto Integrador Generation Brasil',
     )
