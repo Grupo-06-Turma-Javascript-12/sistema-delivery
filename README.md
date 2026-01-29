@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Grupo-06-Turma-Javascript-12/sistema-delivery/main/logo%201.jpg" alt="Mastiga Delivery Logo" width="300">
+  <img src="https://raw.githubusercontent.com/Grupo-06-Turma-Javascript-12/sistema-delivery/main/logo%20original.jpg" alt="Mastiga Delivery Logo" width="300">
 </p>
 
 <h1 align="center"> Mastiga - Delivery Saudável 🥗 </h1>
@@ -34,7 +34,15 @@ O projeto foi construído utilizando as tecnologias mais modernas para garantir 
 
 ---
 
-## 👥 Equipe (Grupo 06)
+## 🛠️ Como executar o projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/Grupo-06-Turma-Javascript-12/sistema-delivery.git](https://github.com/Grupo-06-Turma-Javascript-12/sistema-delivery.git)
+
+---
+
+   ## 👥 Equipe (Grupo 06)
 
 Abaixo estão os desenvolvedores que dão vida ao Mastiga:
 
@@ -77,11 +85,3 @@ Abaixo estão os desenvolvedores que dão vida ao Mastiga:
     </td>
   </tr>
 </table>
-
----
-
-## 🛠️ Como executar o projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/Grupo-06-Turma-Javascript-12/sistema-delivery.git](https://github.com/Grupo-06-Turma-Javascript-12/sistema-delivery.git)
