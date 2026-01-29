@@ -36,6 +36,15 @@ O projeto foi construído utilizando as tecnologias mais modernas para garantir 
 
 ---
 
+## ✨ Funcionalidades
+
+- [x] **Cadastro de Usuários**: Clientes e Administradores.
+- [x] **Gestão de Cardápio**: Adição, edição e remoção de pratos saudáveis.
+- [x] **Carrinho de Compras**: Adição de itens e cálculo de desconto em refeições.
+- [x] **Persistência de Dados**: Integração total com MySQL via TypeORM.
+
+---
+
 ## 🛠️ Como executar o projeto
 
 1. Clone o repositório:
@@ -44,7 +53,7 @@ O projeto foi construído utilizando as tecnologias mais modernas para garantir 
 
 ---
 
-   ## 👥 Equipe (Grupo 06)
+   ## 👥 Equipe de Desenvolvimento - Grupo 06 Generation Brasil
 
 Abaixo estão os desenvolvedores que dão vida ao Mastiga:
 
