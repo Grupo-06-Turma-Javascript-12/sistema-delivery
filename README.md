@@ -47,13 +47,11 @@ Abaixo estão os desenvolvedores que dão vida ao Mastiga:
     </td>
     <td align="center">
       <a href="https://github.com/rafaelbernardodev">
-        <img src="https://github.com/rafaelbernardodev.png" width="120px;" alt="Foto de Rafael Bernando"/><br>
+        <img src="https://github.com/rafaelbernardodev.png" width="120px;" alt="Foto de Rafael Bernardo"/><br>
         <sub><b>Rafael Bernardo</b></sub>
       </a><br>
       🥗
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/ThaysPei">
         <img src="https://github.com/ThaysPei.png" width="120px;" alt="Foto de Thais Peixoto"/><br>
@@ -68,7 +66,6 @@ Abaixo estão os desenvolvedores que dão vida ao Mastiga:
       </a><br>
       🥗
     </td>
-    
   </tr>
 </table>
 
