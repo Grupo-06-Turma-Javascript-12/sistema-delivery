@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsNotEmpty } from 'class-validator';
+import { IsNotEmpty, IsNumber, IsOptional } from 'class-validator';
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { Categoria } from '../../categoria/entities/categoria.entity';
 import { Usuario } from './../../usuario/entities/usuario.entity';
@@ -15,9 +15,18 @@ export class Produto {
   @Column({ length: 100, nullable: false })
   nome: string;
 
-  @ApiProperty()
+  @IsNumber()
+  @IsOptional()
   @IsNotEmpty()
-  @Column('decimal', { precision: 10, scale: 2, nullable: false })
+  @Column({
+    type: 'decimal',
+    precision: 19,
+    scale: 4,
+    transformer: {
+      from: (value: string) => parseFloat(value),
+      to: (value: number) => value,
+    },
+  })
   preco: number;
 
   @ApiProperty()

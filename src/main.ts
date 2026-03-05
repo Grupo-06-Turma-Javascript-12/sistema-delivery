@@ -12,7 +12,7 @@ async function bootstrap() {
       'Mastiga - Delivery Saúdavel API - Projeto Integrador Generation Brasil',
     )
     .setContact(
-      'Mastiga - Delivery Saúdavel',
+      'Mastiga - Delivery Saudável',
       'https://github.com/Grupo-06-Turma-Javascript-12/sistema-delivery',
       'grupo06turmajavascript12@gmail.com',
     )
